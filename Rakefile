@@ -3,4 +3,8 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+task :console do
+    binding.pry
+end
+
 Rails.application.load_tasks
